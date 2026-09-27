@@ -1,0 +1,92 @@
+# =========================================================================
+# GITIGNORE FOR ONLINE EXAM PROJECT (JAVA)
+# =========================================================================
+
+# Compiled Java class files
+*.class
+*.ctxt
+
+# Build & Output Directories
+bin/
+out/
+build/
+target/
+dist/
+nbbuild/
+
+# Package & Archive Artifacts (uncomment if you want to exclude local jars/zips)
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+logs/
+
+# Virtual Machine Crash Logs
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# IDE & Editor Specific Files
+# ==========================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-*/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# NetBeans
+nbproject/private/
+nbproject/build-impl.xml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# ==========================================
+# Operating System Artifacts
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==========================================
+# Temporary & Backup Files
+# ==========================================
+*.tmp
+*.bak
+*.swp
+*.swo
