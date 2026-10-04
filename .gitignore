@@ -16,6 +16,7 @@ nbbuild/
 
 # Package & Archive Artifacts (uncomment if you want to exclude local jars/zips)
 *.jar
+!lib/*.jar
 *.war
 *.ear
 *.nar
@@ -90,3 +91,12 @@ $RECYCLE.BIN/
 *.bak
 *.swp
 *.swo
+
+# ==========================================
+# Database Files
+# ==========================================
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
